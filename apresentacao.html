@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./apresentacao.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="totalArea">
+        <header>
+            <h1>
+                <a>Amigo Corretor</a>
+                <img class="logo" src="./fotos/casalogo.png" alt="">
+            </h1>
+            <!-- class="animate__animated animate__pulse animate__infinite" -->
+        </header>
+
+        <main>
+
+            <section class="informations">
+                <h3>Objetivo</h3>
+                <p> Ser referência no setor imobiliário para venda e aluguel de imóveis,
+                    onde somente corretores podem atuar com a comercialização. Tornar
+                    a negociação segura e profissional, reduzindo tentativas de fraudes,
+                    facilitando a busca por imóveis em um único ambiente e aumentar a confiança dos clientes. </p>
+            </section>
+
+            <div class="team">
+                <h2>EQUIPE</h2>
+            </div>
+            <section class="photos">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/gustavo.jpg" alt="">
+                            <h2>Gustavo Vicenzi</h2>
+                            <a href="https://www.linkedin.com/in/gusvicenzi/"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                                    alt="LinkdIn"></a>
+                            <a href="https://github.com/gusvicenzi"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub"></a>
+                        </div>
+                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/guilherme.jpg" alt="">
+                            <h2>Guilherme Augusto Schwaemmle</h2>
+                            <a href="https://www.linkedin.com/in/guilhermeschwaemmle/"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                                    alt="LinkdIn"></a>
+                            <a href="https://github.com/GuilhermeSchwaemmle"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub"></a>
+                        </div>
+                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/fotoLucas.jpg" alt="Lucas">
+                            <h2>Lucas Cristi</h2>
+                            <a href="https://www.linkedin.com/in/lucascristi/"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                                    alt="LinkdIn"></a>
+                            <a href="https://github.com/LucasCristi"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub"></a>
+                        </div>
+                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/marcel.jpg" alt="">
+                            <h2>Marcel Henrique Schramm</h2>
+                            <a href="https://www.linkedin.com/in/marcelhschramm/"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                                    alt="LinkdIn"></a>
+                            <a href="https://github.com/marcelschramm"><img class="social-network"
+                                    src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub"></a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+            </section>
+
+           
+
+            <section class="technologies">
+
+                <h4>Tecnologias Utilizadas</h4>
+                <img class="iconsTech"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                    alt="ReactNative">
+                <img class="iconsTech"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+                    alt="TypeScript">
+                <img class="iconsTech" src="https://www.vectorlogo.zone/logos/axios/axios-icon.svg" alt="Axios">
+                <img class="iconsTech" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
+                    alt="Express">
+                <img class="iconsTech" src="https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-tile.svg"
+                    alt="Vector">
+                <img class="iconsTech"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                    alt="HTML5">
+                <img class="iconsTech"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                    alt="CSS3">
+
+                    
+
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+            spaceBeteween: 1,
+            slidesPerView: 1,
+            pagination: {
+                el: "swiper-button-next",
+                type: "bullets",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+        })
+    </script>
+</body>
+
+</html>
