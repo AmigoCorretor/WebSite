@@ -55,7 +55,7 @@
     font-size: 1.5em;
 }
 
-.swiper-slide h2{
+.swiper-slide h2 {
     position: absolute;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.45);
@@ -130,31 +130,60 @@ h3 {
 }
 
 .informations {
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .informations p {
     text-align: center;
-    padding: 10px;
+    padding: 0.5em;
 }
 
 .technologies {
     margin-top: 3em;
     text-align: center;
     font-size: 1.5em;
-    padding: 10px;
+    padding: 0.5em;
+}
+
+.divTech{
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .technologies img {
     margin-top: 1em;
-    max-width: 1.5em;
+    max-width: 2em;
     padding: 1em;
     background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+    border-radius: 0.5em;  
+}
+
+.iconsTech{
+    width: 2em;
+}
+
+.technologies P {
+    font-size: 0.5em;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+h5 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.2em;
+}
+
+
+.photoProject {
+    padding: 0.2em;
+    width: 15em;
+    height: 25em;
+    border-radius: 0.5em;
 }
 
 /* ----------------------------------------------
