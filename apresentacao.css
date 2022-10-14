@@ -5,23 +5,7 @@
 }
 
 .totalArea {
-    background: linear-gradient(to bottom,
-            hsl(228.81, 47.2%, 49.02%) 0%,
-            hsla(228.48, 46.2%, 49.64%, 0.991) 8.1%,
-            hsla(227.57, 46.07%, 51.33%, 0.966) 15.5%,
-            hsla(226.21, 47.07%, 53.78%, 0.927) 22.5%,
-            hsla(224.54, 48.66%, 56.69%, 0.877) 29%,
-            hsla(222.7, 50.92%, 59.87%, 0.819) 35.3%,
-            hsla(220.79, 53.95%, 63.15%, 0.754) 41.2%,
-            hsla(218.88, 57.78%, 66.4%, 0.685) 47.1%,
-            hsla(217.06, 62.46%, 69.52%, 0.615) 52.9%,
-            hsla(215.37, 67.98%, 72.44%, 0.546) 58.8%,
-            hsla(213.86, 74.24%, 75.08%, 0.481) 64.7%,
-            hsla(212.55, 81.01%, 77.38%, 0.423) 71%,
-            hsla(211.49, 87.82%, 79.28%, 0.373) 77.5%,
-            hsla(210.68, 93.92%, 80.72%, 0.334) 84.5%,
-            hsla(210.18, 98.33%, 81.64%, 0.309) 91.9%,
-            hsla(210, 100%, 81.96%, 0.3) 100%);
+    background-image: linear-gradient(to bottom, #91d7ff, #9ddcff, #a9e1ff, #b5e6ff, #c1ebff);
 }
 
 
@@ -108,7 +92,7 @@ h1 a {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
     margin: 1em;
 }
@@ -163,7 +147,7 @@ h3 {
 }
 
 .technologies P {
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 p {
@@ -184,6 +168,19 @@ h5 {
     width: 15em;
     height: 25em;
     border-radius: 0.5em;
+}
+
+hr{
+    margin-top: 2em;
+    background-color: #000;
+}
+
+h6 {
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 
 /* ----------------------------------------------
