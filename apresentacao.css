@@ -8,7 +8,6 @@
     background-image: linear-gradient(to bottom, #91d7ff, #9ddcff, #a9e1ff, #b5e6ff, #c1ebff);
 }
 
-
 .swiper {
     width: 90%;
     align-items: center;
@@ -33,6 +32,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .swiper-slide a {
@@ -42,10 +42,11 @@
 .swiper-slide h2 {
     position: absolute;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.75);
+    letter-spacing: 0.1em;
     width: 60%;
     height: 2.5em;
-    margin-top: 2.5em;
+    margin-bottom: 1em;
     border-radius: 0.5em;
 }
 
@@ -56,9 +57,15 @@
     border-radius: 0.5em;
 }
 
+.iconsSocial {
+    display: flex;
+    flex-direction: row;
+}
+
 .social-network {
     width: 3em;
     max-height: 3em;
+    margin: 0.5em;
 }
 
 .swiper-button-next,
@@ -67,15 +74,14 @@
 }
 
 h1 {
-    padding-top: 2em;
+    padding-top: 1.5em;
     text-align: center;
     -webkit-animation: tracking-in-expand-fwd-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s 1 backwards;
     animation: tracking-in-expand-fwd-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s 1 backwards;
-    text-shadow: 5px -2px 6px #baffff;
 }
 
 h1 a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     flex-wrap: wrap;
 }
 
@@ -83,7 +89,7 @@ h1 a {
     width: 8em;
     height: 6em;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 0.5em;
     padding: 1em;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     background: linear-gradient(225deg, #6c9cc7, #80b9ec);
@@ -92,15 +98,17 @@ h1 a {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
-    margin: 1em;
 }
 
 .team {
-    font-size: 1.5em;
     text-align: center;
     margin-top: 3em;
+}
+
+.titleTeam{
+    font-size: 1.5em;
 }
 
 .photos {
@@ -125,7 +133,7 @@ h3 {
 .technologies {
     margin-top: 3em;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 0.5em;
 }
 
@@ -151,8 +159,12 @@ h3 {
 }
 
 p {
+    padding: 0.2em;
+    margin: 1em;
+}
+
+h4{
     font-size: 1.5em;
-    margin-bottom: 1em;
 }
 
 h5 {
@@ -164,7 +176,7 @@ h5 {
 
 
 .photoProject {
-    padding: 0.2em;
+    padding: 1em;
     width: 15em;
     height: 25em;
     border-radius: 0.5em;
@@ -177,7 +189,7 @@ hr{
 
 h6 {
     text-align: center;
-    padding: 1.5em;
+    padding: 1.2em;
     font-size: 1em;
     color: #fff;
     background-color: rgb(0, 0, 0);
