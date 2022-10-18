@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./apresentacao.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Amigo Corretor</title>
 </head>
 
@@ -74,7 +74,7 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
 
-                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/gustavo.jpg" alt="">
+                        <div class="swiper-slide"><img class="fotoPrincipal" src="./fotos/gustavo.jpeg" alt="">
                             <h2>Gustavo Vicenzi</h2>
                             <div class="iconsSocial">
                                 <a href="https://www.linkedin.com/in/gusvicenzi/"><img class="social-network"
@@ -217,6 +217,10 @@
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
             },
 
         })
