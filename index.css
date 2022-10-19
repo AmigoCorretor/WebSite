@@ -51,21 +51,25 @@
 .swiper-slide h2 {
     position: absolute;
     color: #dbe4ec;
-    width: 60%;
+    width: 80%;
     text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
         1px -1px 0 #000,
         -1px -1px 0 #000;
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
     font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.35);
+    /* background-color: rgba(0, 0, 0, 0.35); */
     border-radius: 2em;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display: none;
 }
 
 .fotoPrincipal {
     padding: 0.2em;
-    width: 15em;
-    height: 15em;
+    width: 18em;
+    height: 18em;
     border-radius: 0.5em;
     image-rendering: auto;
 }
