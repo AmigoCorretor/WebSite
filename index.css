@@ -5,8 +5,7 @@
 }
 
 .totalArea {
-    background-image: linear-gradient(to bottom, #91d7ff, #9ddcff, #a9e1ff, #b5e6ff, #c1ebff);
-}
+    background-image: linear-gradient(to right bottom, #cbe0ff, #c5e1ff, #bfe2ff, #b8e4ff, #b2e5ff);}
 
 .swiper {
     width: 90%;
@@ -81,6 +80,11 @@ h1 {
     animation: tracking-in-expand-fwd-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s 1 backwards;
 }
 
+h1 img {
+    width: 10em;
+    height: 4em;
+}
+
 .logo {
     width: 10em;
     height: 5em;
@@ -126,7 +130,7 @@ h3 {
 .technologies {
     margin-top: 3em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 0.5em;
 }
 
@@ -140,7 +144,7 @@ h3 {
     margin-top: 1em;
     max-width: 2em;
     padding: 1em;
-    background-color: rgba(0, 0, 0, 0.25);
+    /* background-color: rgba(0, 0, 0, 0.15); */
     border-radius: 0.5em;  
 }
 
