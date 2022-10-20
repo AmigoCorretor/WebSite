@@ -5,13 +5,24 @@
 }
 
 .totalArea {
-    background-image: linear-gradient(to right bottom, #cbe0ff, #c5e1ff, #bfe2ff, #b8e4ff, #b2e5ff);
+    background-image: linear-gradient(to top, #0095ff, #0095ff, #7ac1f6, #a9d5f0, #d8e6ed);
 }
 
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: .5rem;
+    border: 1px solid #d8e6ed;
+    color: #04009A
+}
 
 .informations-obj {
     background-color: rgba(0, 0, 0, 0.15);
-    margin: 0 1.2em 1.2em;
+    margin: 1em 1.2em 1.2em;
     padding: .5em;
     border-radius: .5em;
 }
@@ -62,7 +73,8 @@
     border-radius: 2em;
 }
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
     display: none;
 }
 
